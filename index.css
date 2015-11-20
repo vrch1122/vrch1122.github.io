@@ -65,7 +65,7 @@ body {
 
 .links {
   float: right;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 1.25%;
   height: auto;
@@ -73,7 +73,7 @@ body {
 
 .texts {
   text-align: center;
-  position: relative;
+  position: absolute;
   right: 0;
   top: 12%;
   bottom: 0;
