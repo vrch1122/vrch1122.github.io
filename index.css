@@ -64,14 +64,14 @@ body {
 
 
 .links {
-  position: fixed;
+  position: relative;
   right: 0;
   top: 1.25%;
   height: auto;
 }
 
 .texts {
-  position: fixed;
+  position: relative;
   right: 0;
   top: 12%;
   
