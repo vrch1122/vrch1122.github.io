@@ -72,7 +72,7 @@ body {
 }
 
 .texts {
-  float: right;
+  text-align: center;
   position: relative;
   right: 0;
   top: 12%;
