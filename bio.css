@@ -134,19 +134,13 @@ body {
 }
 
 
-.jumbotron {
-  background-color: black
-  position: fixed;
-  top: 25%;
-} 
 
 
-.jumbotron h1 {
+.p {
   text-align: justify;
-  background-color: black;
   padding-left: 25%;
   padding-right: 25%;
-  top: 28%;
+  padding-top: 45%;
   color: #FFFFFF;
   text-shadow: -2px -2px 6px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
