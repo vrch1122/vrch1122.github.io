@@ -137,8 +137,16 @@ body {
 
 
 .jumbotron  {
+  position: fixed;
+  overflow: hidden;
+  top: 14.5%;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
   background-size: cover;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
   background-color: black;
 }
 
