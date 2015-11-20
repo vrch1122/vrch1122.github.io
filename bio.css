@@ -134,7 +134,11 @@ body {
 }
 
 
-
+.jumbotron {
+  background-color: black
+  position: fixed;
+  top: 25%;
+} 
 
 
 .jumbotron h1 {
