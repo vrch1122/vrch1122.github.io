@@ -140,6 +140,8 @@ body {
 
 
 .jumbotron h1 {
+  padding-right: 25%;
+  padding-left: 25%;
   padding-top: 14%;
   text-align: center;
   color: #FFFFFF;
