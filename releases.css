@@ -141,12 +141,9 @@ body {
   background-color: black;
 }
 
-.jumbotron .container {
-  position: relative;
-  top: 20%;
-}
 
 .jumbotron h1 {
+  padding-top: 20%;
   text-align: center;
   color: #FFFFFF;
   text-shadow: -6px -6px 9px #FFFFFF;
