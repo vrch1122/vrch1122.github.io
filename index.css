@@ -60,8 +60,10 @@ body {
 }
 
 
-  
-
+.nav {
+  position: absolute;
+  left: 50%;
+}
 
 .links {
   position: fixed;
