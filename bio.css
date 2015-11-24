@@ -70,7 +70,7 @@ body {
 }
 
 .top .texts {
-  position: absolute;
+  position: relative;
   right: 0;
   top: 60%;
   z-index: 1000;
