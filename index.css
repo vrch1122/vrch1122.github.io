@@ -73,7 +73,8 @@ body {
 .texts {
   position: absolute;
   right: 0;
-  top: 80%;
+  top: 85%;
+  z-index: 1000;
 }
 
 .texts a {
