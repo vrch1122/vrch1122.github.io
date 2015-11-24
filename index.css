@@ -71,7 +71,7 @@ body {
 }
 
 .texts {
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 12%;
 }
