@@ -71,7 +71,6 @@ body {
 
 .texts {
   position: absolute;
-  background-color: white;
   right: 0;
   top: 60%;
   z-index: 1000;
