@@ -70,9 +70,10 @@ body {
 }
 
 .texts {
-  position: fixed;
+  position: absolute;
   right: 0;
-  top: 12%;
+  top: 50%;
+  z-index: 1000;
   
 }
 
