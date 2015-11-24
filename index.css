@@ -70,10 +70,11 @@ body {
   height: auto;
 }
 
-.texts {
-  position: fixed;
+.wrapper.top .texts {
+  position: absolute;
+  background-color: white;
   right: 0;
-  bottom: 91%;
+  top: 9%;
   z-index: 1000;
 }
 
