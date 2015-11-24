@@ -69,7 +69,7 @@ body {
   height: auto;
 }
 
-.texts {
+.top .texts {
   position: absolute;
   right: 0;
   top: 60%;
