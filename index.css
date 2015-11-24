@@ -72,7 +72,7 @@ body {
   height: auto;
 }
 
-.wrapper.top .texts {
+.texts {
   position: absolute;
   background-color: white;
   float: right;
