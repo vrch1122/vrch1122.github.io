@@ -130,6 +130,7 @@ body {
 
 
 .container {
+  background-color: black;
   top: 45%;
   position: relative;
   padding-left: 10%;
