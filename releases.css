@@ -128,17 +128,14 @@ body {
 
 
 h1 {
-  text-align: center;
+  text-align: justify;
   top: 45%;
-  padding-right: 25%;
-  padding-left: 25%;
   color: #FFFFFF;
   text-shadow: -2px -2px 6px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16.6px;
   font-weight: 0;
   text-decoration: none;
-  line-height: 185%;
   position: fixed;
 }
 
