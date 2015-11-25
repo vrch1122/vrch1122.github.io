@@ -128,7 +128,7 @@ body {
 
 
 h1 {
-  position: fixed;
+  position: absolute;
   text-align: center;
   left: 37.5%;
   top: 45%;
