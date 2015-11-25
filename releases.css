@@ -131,12 +131,13 @@ h1 {
   position: fixed;
   display: block;
   text-align: center;
+  left: 45%;
   top: 45%;
   color: #FFFFFF;
   text-shadow: -2px -2px 6px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16.6px;
-  font-weight: 0;
+  font-size: 17px;
+  font-weight: -5;
   text-decoration: none;
 }
 
