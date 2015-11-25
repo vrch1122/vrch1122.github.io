@@ -127,13 +127,10 @@ body {
 
 
 
-.jumbotron  {
-  background-size: cover;
-  background-repeat: no repeat;
-  background-color: black;
-}
 
-.jumbotron .container {
+
+.container {
+  top: 45%;
   position: relative;
   padding-left: 10%;
   padding-right: 10%;
