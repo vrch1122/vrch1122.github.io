@@ -137,7 +137,9 @@ body {
   padding-right: 10%;
 }
 
-
+.container img {
+  top: 150px;
+}
   
   
 
