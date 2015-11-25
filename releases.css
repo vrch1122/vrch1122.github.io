@@ -139,7 +139,7 @@ h1 {
   font-weight: 0;
   text-decoration: none;
   line-height: 185%;
-  position: absolute;
+  position: fixed;
 }
 
   
