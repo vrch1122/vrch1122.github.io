@@ -128,8 +128,9 @@ body {
 
 
 h1 {
-  position: absolute;
+  position: fixed;
   text-align: center;
+  left: 37.5%;
   top: 45%;
   color: #FFFFFF;
   text-shadow: -2px -2px 6px #FFFFFF;
