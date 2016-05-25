@@ -6,7 +6,6 @@ body {
   overflow: hidden;
 }
 
-
 .wrapper {
   height: 100%;
   width: 100%;
@@ -17,7 +16,6 @@ body {
   bottom: 0;
   overflow: hidden;
 } 
-
 
 .wrapper .top {
   background-color: black;
@@ -31,9 +29,6 @@ body {
   border-style: none;
   margin: 0;
 }
-
-
-
 
 .wrapper .top .logo {
   background-color: black;
@@ -63,7 +58,7 @@ body {
 .texts {
   position: absolute;
   right: 0;
-  top: 19%;
+  top: 32.1%;
   z-index: 1000;
   
 }
