@@ -143,15 +143,11 @@ body {
   position: absolute;
   list-style: none;
   left: 0;
-
-  
-
 }
 
 .slider input {
   display: none;
 }
-
 
 .slider label {
   background-color: #000;
@@ -239,6 +235,21 @@ body {
   
 
 
+#textone {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#texttwo {
+  position: absolute;
+  top: 42%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
 
 
