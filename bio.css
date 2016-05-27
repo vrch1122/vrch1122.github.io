@@ -122,8 +122,9 @@ body {
 
 
 h1 {
+  position: absolute;
   text-align: justify;
-  top: 400%;
+  top: 45%;
   padding-right: 25%;
   padding-left: 25%;
   color: #FFFFFF;
