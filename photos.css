@@ -138,13 +138,15 @@ body {
 }
 
 #imgone {
+  position: absolute;
   top: 50px;
-  left: 25%;
+  left: 0;
 }
 
 #imgtwo {
+  position: absolute;
   top: 50px;
-  right: 25%;
+  right: 0;
 }
   
 
