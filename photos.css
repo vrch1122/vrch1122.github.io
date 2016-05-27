@@ -132,7 +132,7 @@ body {
 .container {
   background-color: black;
   top: 20%;
-  position: absolute;
+  position: fixed;
   padding-left: 10%;
   padding-right: 10%;
 }
