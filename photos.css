@@ -64,7 +64,7 @@ body {
 .texts {
   position: absolute;
   right: 0;
-  top: 17.5%;
+  top: 70%;
   z-index: 1000;
   
 }
@@ -131,10 +131,10 @@ body {
 
 .container {
   background-color: black;
-  top: 20%;
+  top: 25%;
+  left: 0;
+  right: 0;
   position: fixed;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 #imgone {
