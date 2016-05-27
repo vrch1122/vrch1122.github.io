@@ -233,7 +233,11 @@ body {
   z-index: 10;
 }
   
-
+.slider p {
+  left: 0;
+  right: 0;
+  text-align: center;
+}
 
 #textone {
   background-color: black;
