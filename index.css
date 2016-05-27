@@ -247,6 +247,8 @@ h2 span {
   font-size: 45px;
   position: absolute;
   top: 7%;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
@@ -256,6 +258,8 @@ h2 span {
   font-size: 45px;
   position: absolute;
   top: 17%;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
