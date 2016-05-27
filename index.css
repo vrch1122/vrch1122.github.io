@@ -233,15 +233,15 @@ body {
   z-index: 10;
 }
   
-.slider p {
-  left: 0;
-  right: 0;
-  text-align: center;
-  background-color: transparent;
+h1 span {
+  background-color: black;
+}
+
+h2 span {
+  background-color: black;
 }
 
 #textone {
-  background-color: black;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;  
   font-size: 45px;
@@ -251,7 +251,6 @@ body {
 }
 
 #texttwo {
-  background-color: black;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 45px;
