@@ -236,6 +236,9 @@ body {
 
 
 #textone {
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;  
+  font-size: 55px;
   position: absolute;
   top: 35%;
   left: 0;
@@ -244,6 +247,9 @@ body {
 }
 
 #texttwo {
+  background-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 55px;
   position: absolute;
   top: 42%;
   left: 0;
