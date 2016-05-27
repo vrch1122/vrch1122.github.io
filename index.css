@@ -239,11 +239,9 @@ body {
   background-color: black;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;  
-  font-size: 55px;
+  font-size: 45px;
   position: absolute;
-  top: 10%;
-  left: 0;
-  right: 0;
+  top: 7%;
   text-align: center;
 }
 
@@ -251,11 +249,9 @@ body {
   background-color: black;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   position: absolute;
-  top: 20%;
-  left: 0;
-  right: 0;
+  top: 17%;
   text-align: center;
 }
 
