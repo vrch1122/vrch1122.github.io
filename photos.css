@@ -140,13 +140,13 @@ body {
 #imgone {
   position: absolute;
   top: 50px;
-  left: 0;
+  left: 15%;
 }
 
 #imgtwo {
   position: absolute;
   top: 50px;
-  right: 0;
+  right: 15%;
 }
   
 
