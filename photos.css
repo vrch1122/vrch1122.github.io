@@ -131,16 +131,21 @@ body {
 
 .container {
   background-color: black;
-  top: 55%;
-  position: relative;
+  top: 20%;
+  position: absolute;
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.container img {
-  top: 150px;
+#imgone {
+  top: 50px;
+  left: 25%;
 }
-  
+
+#imgtwo {
+  top: 50px;
+  right: 25%;
+}
   
 
 
