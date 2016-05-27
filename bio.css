@@ -124,6 +124,20 @@ body {
   padding: 0px 6px 0px;
 }
 
+p {
+  position: fixed;
+  text-align: center;
+  left: 25%;
+  right: 25%;
+  top: 15%;
+  color: #FFFFFF;
+  text-shadow: -2px -2px 6px #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: -5;
+  text-decoration: none;
+  line-height: 185%;
+}
 
 
 
