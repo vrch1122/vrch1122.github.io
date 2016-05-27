@@ -176,7 +176,6 @@ h1 {
  
 .bottom a {
   color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   font-weight: 10;
@@ -185,15 +184,7 @@ h1 {
 
 .bottom a:hover {
   color: #000000;
-  text-shadow:   0px 0px 26px #FFFFFF,
-                          0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF,
-						  0px 0px 26px #FFFFFF;
+  text-shadow: -6px -6px 10px #FFFFFF;
 }
 
 .almost {
