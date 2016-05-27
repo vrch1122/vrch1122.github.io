@@ -176,30 +176,20 @@ h1 {
  
 .bottom a {
   color: #FFFFFF;
+  text-shadow: -6px -6px 10px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 10px;
   font-weight: 10;
   text-decoration: none;
 }
 
-.bottom a:hover {
-  color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
-}
 
 .almost {
-  position: fixed;
-  left: -2%;
-  bottom: 2.3%;
-}
-  
-
-.done {
   position: fixed;
   left: -2.5%;
   bottom: -1.4%;
 }
-
+  
 .huh {
   position: fixed;
   bottom: -1.4%;
