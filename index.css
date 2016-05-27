@@ -150,7 +150,7 @@ body {
 }
 
 .slider label {
-  background-color: #000;
+  background-color: red;
   background-image: linear-gradient( transparent, hsla( 0, 0%, 0%, .25));
   border: .2em solid transparent;
   border-radius: 100%;
