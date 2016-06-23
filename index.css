@@ -194,25 +194,25 @@ body {
 .slider:hover li:nth-child(1) label {
   position: fixed;
   left: 45.6%;
-  bottom: 9.7%;
+  bottom: 3%;
 }
 
 .slider:hover li:nth-child(2) label {
   position: fixed;
   left: 47.8%;
-  bottom: 9.7%;
+  bottom: 3%;
 }
 
 .slider:hover li:nth-child(3) label {
   position: fixed;
   left: 50%;
-  bottom: 9.7%;
+  bottom: 3%;
 }
 
 .slider:hover li:nth-child(4) label {
   position: fixed;
   left: 52.2%;
-  bottom: 9.7%;
+  bottom: 3%;
 }
 
 .slider img {
@@ -222,7 +222,7 @@ body {
   height: auto;
   width: 100%;
   top: 13.985%;
-  bottom: 6%;
+  bottom: 4%;
   overflow: hidden;
 }
 
