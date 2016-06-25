@@ -52,7 +52,9 @@ body {
 }
 
 
-
+.logo a {
+  outline: none;
+}
 
 
 
