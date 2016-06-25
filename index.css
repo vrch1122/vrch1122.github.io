@@ -30,6 +30,7 @@ body {
   width: 100%;
   border-style: none;
   margin: 0;
+  overflow: hidden;
 }
 
 
