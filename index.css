@@ -17,7 +17,6 @@ body {
   top: 0;
   bottom: 0;
   overflow: hidden;
-  outline: none;
 } 
 
 
@@ -27,7 +26,6 @@ body {
   display: block;
   left: 0;
   top: 0;
-  overflow: hidden;
   height: 12%;
   width: 100%;
   border-style: none;
@@ -46,7 +44,6 @@ body {
   width: 27%;
   height: 100%;
   overflow: hidden;
-  outline: none;
 }
 
 
@@ -63,7 +60,6 @@ body {
   top: 1.25%;
   height: auto;
   outline: none;
-  overflow: visible;
 }
 
 .texts {
@@ -73,7 +69,6 @@ body {
   outline: none;
   z-index: 1000;
   outline: none;
-  overflow: visible;
 }
 
 .texts a {
@@ -83,13 +78,11 @@ body {
   font-weight: 10;
   text-decoration: none;
   outline: none;
-  overflow: visible;
 }
 
 .texts a:hover {
-  color: #000000;
-  overflow: visible;
   outline: none;
+  color: #000000;
   text-shadow:  0px 0px 26px #FFFFFF,
                 0px 0px 26px #FFFFFF,
 		0px 0px 26px #FFFFFF,
@@ -103,9 +96,9 @@ body {
 
 
 .links li {
+  outline: none;
   display: inline;
   padding: 0px 6px 0px;
-  outline: none;
 }
 
 .links a:hover {
@@ -122,6 +115,7 @@ body {
 
 
 .texts li {
+  outline: none;
   display: inline;
   padding: 0px 6px 0px;
 }
