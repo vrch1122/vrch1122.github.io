@@ -28,7 +28,7 @@ body {
   display: block;
   left: 0;
   top: 0;
-  overflow: visible;
+  overflow: hidden;
   height: 12%;
   width: 100%;
   border-style: none;
