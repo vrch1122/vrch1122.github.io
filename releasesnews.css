@@ -71,7 +71,6 @@ body {
 
 .texts a {
   color: #FFFFFF;
-  text-shadow: -6px -6px 9px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 13px;
   font-weight: 10;
@@ -104,7 +103,6 @@ body {
   height: 44px;
   width: 42px;
   border-radius: 50%;
-  box-shadow: -8px -8px 24px 0px #FFFFFF;
 }
   
 .links a:hover {
@@ -160,7 +158,6 @@ h1 {
  
 .bottom li {
   color: #FFFFFF;
-  text-shadow: -6px -6px 10px #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 10px;
   font-weight: 10;
