@@ -38,7 +38,6 @@ body {
 
 .wrapper .top .logo {
   background-color: black;
-  align-self: stretch;
   display: block;
   position: relative;
   float: left;
@@ -48,7 +47,9 @@ body {
   
 }
 
-
+.logo a {
+  outline: none;
+}
 
 
   
