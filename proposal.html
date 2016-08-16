@@ -39,39 +39,39 @@
 			<div id="actform">
 				<form id="contactform" method="POST">
 					<div class="form-group">
-						<div class="input-group">
+						<div class="nombre">
 							<span class="input-group-addon">Name</span>
-							<input type="text" name="name" class="form-control" required>
+							<input type="text" name="name" id="nombredos" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="correo">
 							<span class="input-group-addon">Email</span>
-							<input type="email" name="_replyto" class="form-control" required>
+							<input type="email" name="_replyto" id="correodos" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="tipo">
 							<span class="input-group-addon">Type of Event</span>
-							<input type="text" name="eventtype" class="form-control" required>
+							<input type="text" name="eventtype" id="tipodos" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="cuantos">
 							<span class="input-group-addon">Guest Count</span>
-							<input type="text" name="guests" class="form-control" required>
+							<input type="text" name="guests" id="cuantosdos" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="dia">
 							<span class="input-group-addon">Date of Event</span>
-							<input type="text" name="date" class="form-control" required>
+							<input type="text" name="date" id="diados" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="tiempo">
 							<span class="input-group-addon">Time of Event</span>
-							<input type="text" name="time" class="form-control" required>
+							<input type="text" name="time" id="tiempodos" class="form-control" required>
 						</div>
-						<div class="input-group">
+						<div class="donde">
 							<span class="input-group-addon">Location of Event</span>
-							<textarea name="locationof" class="form-control" rows="2" cols="60" required></textarea>
+							<textarea name="locationof" id="dondedos" class="form-control" rows="2" cols="60" required></textarea>
 						</div>
-						<div class="input-group">
+						<div class="mas">
 							<span class="input-group-addon">Additional Information</span>
-							<textarea name="addinfo" class="form-control" rows="4" cols="60" required></textarea>
+							<textarea name="addinfo" id="masdos" class="form-control" rows="4" cols="60" required></textarea>
 						</div>
-						<input type="text" name="_gotcha" style="display:none" />
+						<input type="text" name="_gotcha" id="usebut" style="display:none" />
 						<button id="sendMessage">Send</button>
 					</div>
 				</form>
@@ -109,6 +109,5 @@
 			return false;
 		});
 		</script>
-	
 	</body>
 </html>
