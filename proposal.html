@@ -70,16 +70,16 @@
 		<script>
 
 		$("#sendMessage").on("click", function(e) {
-			var subject = $(this).children('input[name="subject"]').val();
-			var name = $(this).children('input[name="name"]').val();
-			var email = $(this).children('input[name="_replyto"]').val();
-			var description = $(this).children('textarea[name="description"]').val();
-			var message = 'Subject:  '  +  subject  +  'Name:  '  +  name  +  'Email:  '  +  email  +  'Description:  '  +  description;
+			var subject = $('#contactform').find('input[name="subject"]').val();
+			var name = $('#contactform').find('input[name="name"]').val();
+			var email = $('#contactform').find('input[name="_replyto"]').val();
+			var description = $('#contactform').find('input[name="description"]').val();
+			var what = 'Subject:  '  +  subject  +  'Name:  '  +  name  +  'Email:  '  +  email  +  'Description:  '  +  description;
 			e.preventDefault();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
-				data: {message: message},
+				data: {message: what},
 				dataType: "json"
 			});
 			$('.forma').addClass('remform');
