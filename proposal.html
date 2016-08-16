@@ -36,7 +36,7 @@
 			<div id="actform">
 				<form id="contactform" method="POST">
 					<p id="'nam">Name: <input name="Name" type="text" id="Name" size="40"></p>
-					<p id="mail">E-mail address: <input name="_replyto" type="email" id="E-mail" size="40"></p>
+					<p id="mail">E-mail address: <input name="Email" type="email" id="E-mail" size="40"></p>
 					<p id="comment">Comment:</p>
 					<p><textarea name="Comment" cols="55" rows="5" id="Comment"></textarea></p>
                     <input type="text" name="_gotcha" style="display: none" />
@@ -46,12 +46,13 @@
 		</div>
 	
 	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<script>
 		var message = "";
 
-		$("#sendMessage").on("click", function() {
+		$("#sendMessage").on("click", function(e) {
+			e.preventDefault();
 			message = $("#contactform").serialize();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
@@ -63,5 +64,15 @@
 			return false;
 		});
 		</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	</body>
 </html>
