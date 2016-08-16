@@ -31,8 +31,9 @@
 			</ul>
 		</nav>
 		
-		<div id="forma">
-			<p id="formhead">REQUEST CATERING PROPOSAL</p>
+		<p id="formhead">REQUEST CATERING PROPOSAL</p>
+		
+		<div class="forma">
 			<div id="actform">
 				<form id="contactform" method="POST">
 					<div class="form-group">
@@ -58,23 +59,41 @@
 				</form>
 			</div>
 		</div>
+		<div id="thanks">
+			<div class="boxer"></div>
+			<p class="aftersent">Thank you for your Catering Proposal Request. We will be in touch promptly.</p>
+		</div>
 	
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<script>
-		var message = "";
+		var subject = $('#contactform').find('subject').html();
+		var name = $('#contactform').find('name').html();
+		var email = $('#contactform').find('email').html();
+		var description = $('#contactform').find('description').html();
+		
+		var message = '<h1>'  +   subject  +  '</h1><br><br>'  +
+					'<ul>'  +  
+									'<li>'  +  		
+													'Name:  '  +  name  +
+									'<li>'  +  		
+													'Email:  '  +  email  +
+									'<li>'  +  		
+													'Description:  '  +  description  +
+									'</li>'  +
+					'</ul>';								
 
 		$("#sendMessage").on("click", function(e) {
 			e.preventDefault();
-			message = $("#contactform").serialize();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
 				data: {message: message},
 				dataType: "json"
 			});
-			alert('Thanks for the email, we\'ll be in touch promptly.');
+			$('.forma').addClass('remform');
+			$('.boxer').addClass('goaway');
 			return false;
 		});
 		</script>
