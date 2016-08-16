@@ -68,10 +68,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<script>
-		var subject = $('#contactform').find('#' + subjeto);
-		var name = $('#contactform').find('#' + nombre);
-		var email = $('#contactform').find('#' + emailer);
-		var description = $('#contactform').find('#' + descripcion);
+		var subject = $('#contactform').find('#' + subjeto).html();
+		var name = $('#contactform').find('#' + nombre).html();
+		var email = $('#contactform').find('#' + emailer).html();
+		var description = $('#contactform').find('#' + descripcion).html();
 		
 		var message = '<h1>'  +   subject  +  '</h1><br><br>'  +
 					'<ul>'  +  
