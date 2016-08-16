@@ -128,7 +128,7 @@ a:hover #toma {
   position: fixed;
 }
 
-#forma {
+.forma {
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -136,17 +136,19 @@ a:hover #toma {
 	height: 400px;
 	width: 100%;
 	text-align: center;
+	z-index: 1001;
 }
 
 #formhead {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: -70px;
+	top: 600px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 32px;
 	font-family: 'Handlee', sans-serif;
 	color: white;
+	z-index: 5000;
 }
 
 #actform {
@@ -157,4 +159,47 @@ a:hover #toma {
 	font-family: 'Handlee', sans-serif;
 	font-size: 15px;
 	color: white;
+	z-index: 1002;
+}
+
+#thanks {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 500px;
+	widht: 100%;
+	height: 200px;
+	background-color: black;
+	z-index: 100;
+}
+
+.boxer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	z-index: 100;
+	top: 250px;
+}
+
+.aftersent {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 250px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	z-index: 49;
+}
+
+.remform {
+	display: none;
+}
+
+.goaway {
+	display: none;
 }
