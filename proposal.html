@@ -68,14 +68,13 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 		<script>
-		var subject = $(this).children('input[name="subject"]').val();
-		var name = $(this).children('input[name="name"]').val();
-		var email = $(this).children('input[name="_replyto"]').val();
-		var description = $(this).children('textarea[name="description"]').val();
-		
-		var message = 'Subject:  '  +  subject  +  'Name:  '  +  name  +  'Email:  '  +  email  +  'Description:  '  +  description;
 
 		$("#sendMessage").on("click", function(e) {
+			var subject = $(this).children('input[name="subject"]').val();
+			var name = $(this).children('input[name="name"]').val();
+			var email = $(this).children('input[name="_replyto"]').val();
+			var description = $(this).children('textarea[name="description"]').val();
+			var message = 'Subject:  '  +  subject  +  'Name:  '  +  name  +  'Email:  '  +  email  +  'Description:  '  +  description;
 			e.preventDefault();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
