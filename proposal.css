@@ -80,8 +80,6 @@ img {
 	background-color: black;
 }
 
-
-
 #toma {
 	position: relative;
 	height: 30px;
@@ -123,9 +121,9 @@ a:hover #toma {
 }
 
 .fixed {
-  top: 0;
-  bottom: 90%;
-  position: fixed;
+	position: fixed;
+	top: 0;
+	height: 95px;
 }
 
 #formhead {
@@ -144,66 +142,230 @@ a:hover #toma {
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 690px;
+	top: 640px;
 	height: 600px;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	z-index: 1001;
 }
 
 #phone {
 	position: absolute;
 	left: 0;
-	right: 0;
+	right: 109px;
 	top: 80px;
-	text-align: center;
+	text-align: right;
 	font-family: 'Handlee', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 }
 
 #diffcolor {
 	position: absolute;
 	left: 0;
-	right: 0;
+	right: 80px;
 	top: 100px;
-	text-align: center;
+	text-align: right;
 	font-family: 'Handlee', sans-serif;
-	font-size: 18px;
+	font-size: 22px;
 	color: #B51A00;
 }
 
 #mailstat {
 	position: absolute;
 	left: 0;
-	right: 50%;
-	top: 80px;
-	text-align: center;
+	right: 110px;
+	top: 140px;
+	text-align: right;
 	font-family: 'Handlee', sans-serif;
-	font-size: 18px;
+	font-size: 23px;
 	color: white;
 }
 
 #maildiff {
 	position: absolute;
 	left: 0;
-	right: 50%;
-	top: 100px;
-	text-align: center;
+	right: 40px;
+	top: 160px;
+	text-align: right;
 	font-family: 'Handlee', sans-serif;
-	font-size: 18px;
+	font-size: 23px;
 	color: #B51A00;
 }
 
 #actform {
 	position: absolute;
-	top: 200px;
+	top: 90px;
+	height: 600px;
 	left: 0;
 	right: 0;
 	font-family: 'Handlee', sans-serif;
-	font-size: 15px;
+	font-size: 21px;
 	color: white;
 	z-index: 1002;
+}
+
+input {
+	font-family: 'Handlee', sans-serif;
+	background-color: black;
+	font-size: 22px;
+	color: #B51A00;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.nombre {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 50px;
+	top: 0;
+}
+
+#nombredos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.correo {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 50px;
+	top: 0px;
+}
+
+#correodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.tipo {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 150px;
+	top: 80px;
+	
+}
+
+#tipodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+	left: 30px;
+}
+
+.cuantos {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 130px;
+	top: 80px;
+	
+}
+
+#cuantosdos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.dia {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 130px;
+	top: 160px;
+	
+}
+
+#diados {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.tiempo {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 130px;
+	top: 160px;
+	
+}
+
+#tiempodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.donde {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 150px;
+	top: 240px;
+}
+
+.mas {
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	left: 40%;
+	width: 200px;
+	top: 240px;
+}
+
+textarea {
+	background-color: black;
+	border: solid 1px #B51A00;
+	resize: none;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #B51A00;
+	outline: none;
+	width: 375px;
+	height: 120px;
+}
+
+#usebut {
+	position: absolute;
+	left: 30px;
+	top: 640px;
+}
+
+#sendMessage {
+	position: absolute;
+	left: 30px;
+	top: 420px;
+	cursor: pointer;
+	height: 40px;
+	width: 90px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	outline: none;
+	text-decoration: none;
+	border: 1px solid #B51A00;
+	background-color: black;
+	color: white;
 }
 
 #thanks {
