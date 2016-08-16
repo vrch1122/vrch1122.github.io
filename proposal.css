@@ -374,7 +374,7 @@ textarea {
 	right: 0;
 	top: 500px;
 	widht: 100%;
-	height: 200px;
+	height: 800px;
 	background-color: black;
 	z-index: 100;
 }
@@ -383,7 +383,7 @@ textarea {
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 100px;
+	height: 300px;
 	width: 100%;
 	background-color: black;
 	z-index: 100;
@@ -395,10 +395,58 @@ textarea {
 	left: 0;
 	right: 0;
 	top: 250px;
-	font-size: 25px;
+	font-size: 26px;
 	color: white;
 	text-align: center;
 	font-family: 'Handlee', sans-serif;
+	z-index: 19;
+}
+
+#phonetwo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 320px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: white;
+	z-index: 19;
+}
+
+#diffcolortwo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 340px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 22px;
+	color: #B51A00;
+	z-index: 19;
+}
+
+#mailstattwo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 380px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: white;
+	z-index: 19;
+}
+
+#maildifftwo {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 400px;
+	text-align: center;
+	font-family: 'Handlee', sans-serif;
+	font-size: 23px;
+	color: #B51A00;
 	z-index: 49;
 }
 
