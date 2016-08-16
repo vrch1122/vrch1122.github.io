@@ -70,10 +70,10 @@
 		<script>
 
 		$("#sendMessage").on("click", function(e) {
-			var subject = $('#contactform').find('input[name="subject"]').val();
-			var name = $('#contactform').find('input[name="name"]').val();
-			var email = $('#contactform').find('input[name="_replyto"]').val();
-			var description = $('#contactform').find('textarea[name="description"]').val();
+			var subject = $('input[name="subject"]').val();
+			var name = $('input[name="name"]').val();
+			var email = $('input[name="_replyto"]').val();
+			var description = $('textarea[name="description"]').val();
 			var what = 'Subject:  '  +  subject  +  '  Name:  '  +  name  +  '  Email:  '  +  email  +  '  Description:  '  +  description;
 			e.preventDefault();
 			$.ajax({
