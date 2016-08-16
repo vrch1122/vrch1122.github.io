@@ -74,12 +74,12 @@
 			var name = $('input[name="name"]').val();
 			var email = $('input[name="_replyto"]').val();
 			var description = $('textarea[name="description"]').val();
-			var what = 'Subject:  '  +  subject  +  '  Name:  '  +  name  +  '  Email:  '  +  email  +  '  Description:  '  +  description;
+			
 			e.preventDefault();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
-				data: {message: what},
+				data: {NAME: name, EMAIL: email, SUBJECT: subject, COMMENT: description},
 				dataType: "json"
 			});
 			$('.forma').addClass('remform');
