@@ -34,6 +34,8 @@
 		<p id="formhead">REQUEST CATERING PROPOSAL</p>
 		
 		<div class="forma">
+			<p id="phone">Phone: <p id="diffcolor">323.314.4792</p></p>
+			<p id="mailstat">Email: <p id="maildiff">saborculichi@gmail.com</p></p>
 			<div id="actform">
 				<form id="contactform" method="POST">
 					<div class="form-group">
@@ -46,12 +48,24 @@
 							<input type="email" name="_replyto" class="form-control" required>
 						</div>
 						<div class="input-group">
-							<span class="input-group-addon">Subject</span>
-							<input type="text" name="subject" class="form-control" required>
+							<span class="input-group-addon">Type of Event</span>
+							<input type="text" name="eventtype" class="form-control" required>
 						</div>
 						<div class="input-group">
-							<span class="input-group-addon">Description</span>
-							<textarea name="description" class="form-control" rows="4" cols="60" required></textarea>
+							<span class="input-group-addon">Guest Count</span>
+							<input type="text" name="guests" class="form-control" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon">Date & Time of Event</span>
+							<input type="text" name="datetime" class="form-control" required>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon">Location of Event</span>
+							<textarea name="locationof" class="form-control" rows="4" cols="60" required></textarea>
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon">Additional Information</span>
+							<textarea name="addinfo" class="form-control" rows="4" cols="60" required></textarea>
 						</div>
 						<input type="text" name="_gotcha" style="display:none" />
 						<button id="sendMessage">Send</button>
@@ -70,16 +84,19 @@
 		<script>
 
 		$("#sendMessage").on("click", function(e) {
-			var subject = $('input[name="subject"]').val();
 			var name = $('input[name="name"]').val();
 			var email = $('input[name="_replyto"]').val();
-			var description = $('textarea[name="description"]').val();
+			var type = $('input[name="eventtype"]').val();
+			var guests = $('input[name="guests"]').val();
+			var date = $('input[name="datetime"]').val();
+			var locationof = $('textarea[name="locationof"]').val();
+			var addinfo = $('textarea[name="addinfo"]').val();
 			
 			e.preventDefault();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
-				data: {NAME: name, EMAIL: email, SUBJECT: subject, COMMENT: description},
+				data: {NAME: name, EMAIL: email, TYPE OF EVENT: type, GUEST COUNT: guests, DATE OF EVENT: date, LOCATION: locationof, ADDITIONAL INFO: addinfo},
 				dataType: "json"
 			});
 			$('.forma').addClass('remform');
