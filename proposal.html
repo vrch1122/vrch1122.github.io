@@ -47,29 +47,33 @@
 							<span class="input-group-addon">Email</span>
 							<input type="email" name="_replyto" id="correodos" class="form-control" required>
 						</div>
-						<div class="tipo">
-							<span class="input-group-addon">Type of Event</span>
-							<input type="text" name="eventtype" id="tipodos" class="form-control" required>
+						<div class="telefo">
+							<span class="input-group-addon">Phone Number</span>
+							<input type="text" name="numero" id="telefodos" class="form-control" required>
 						</div>
 						<div class="cuantos">
 							<span class="input-group-addon">Guest Count</span>
 							<input type="text" name="guests" id="cuantosdos" class="form-control" required>
 						</div>
-						<div class="dia">
+						<div class="tipo">
+							<span class="input-group-addon">Type of Event</span>
+							<input type="text" name="type" id="tipodos" class="form-control" required>
+						</div>
+						<div class="ete">
 							<span class="input-group-addon">Package(s) / Food Items Desired</span>
-							<input type="text" name="food" id="diados" class="form-control" required>
+							<input type="text" name="kete" id="etedos" class="form-control" required>
+						</div>
+						<div class="dia">
+							<span class="input-group-addon">Date of Event</span>
+							<input type="text" name="day" id="diados" class="form-control" required>
 						</div>
 						<div class="tiempo">
-							<span class="input-group-addon">Date & Time of Event</span>
+							<span class="input-group-addon">Time of Event</span>
 							<input type="text" name="time" id="tiempodos" class="form-control" required>
 						</div>
 						<div class="donde">
 							<span class="input-group-addon">Location of Event</span>
 							<textarea name="locationof" id="dondedos" class="form-control" rows="2" cols="60" required></textarea>
-						</div>
-						<div class="mas">
-							<span class="input-group-addon">Additional Information</span>
-							<textarea name="addinfo" id="masdos" class="form-control" rows="4" cols="60" required></textarea>
 						</div>
 						<input type="text" name="_gotcha" id="usebut" style="display:none" />
 						<button id="sendMessage">Send</button>
@@ -109,18 +113,19 @@
 		$("#sendMessage").on("click", function(e) {
 			var name = $('input[name="name"]').val();
 			var email = $('input[name="_replyto"]').val();
-			var type = $('input[name="eventtype"]').val();
+			var num = $('input[name="_numero"]').val();
+			var type = $('input[name="type"]').val();
 			var guests = $('input[name="guests"]').val();
-			var food = $('input[name="food"]').val();
+			var date = $('input[name="day"]').val();
 			var time = $('input[name="time"]').val();
 			var locationof = $('textarea[name="locationof"]').val();
-			var addinfo = $('textarea[name="addinfo"]').val();
+			var food = $('textarea[name="kete"]').val();
 			
 			e.preventDefault();
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
-				data: {NAME: name, EMAIL: email, TYPE_OF_EVENT: type, GUEST_COUNT: guests, FOOD_ITEMS: food, DATE_and_TIME_OF_EVENT: time, LOCATION: locationof, ADDITIONAL_INFO: addinfo},
+				data: {NAME: name, EMAIL: email, PHONE: num, TYPE_OF_EVENT: type, GUEST_COUNT: guests, FOOD_ITEMS: food, DATE_OF_EVENT: date, TIME_OF_EVENT: time, LOCATION: locationof},
 				dataType: "json"
 			});
 			$('.forma').addClass('remform');
