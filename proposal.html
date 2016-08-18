@@ -57,7 +57,7 @@
 						</div>
 						<div class="dia">
 							<span class="input-group-addon">Package(s) / Food Items Desired</span>
-							<input type="text" name="date" id="diados" class="form-control" required>
+							<input type="text" name="food" id="diados" class="form-control" required>
 						</div>
 						<div class="tiempo">
 							<span class="input-group-addon">Date & Time of Event</span>
@@ -111,7 +111,7 @@
 			var email = $('input[name="_replyto"]').val();
 			var type = $('input[name="eventtype"]').val();
 			var guests = $('input[name="guests"]').val();
-			var date = $('input[name="date"]').val();
+			var food = $('input[name="food"]').val();
 			var time = $('input[name="time"]').val();
 			var locationof = $('textarea[name="locationof"]').val();
 			var addinfo = $('textarea[name="addinfo"]').val();
@@ -120,7 +120,7 @@
 			$.ajax({
 				url: "//formspree.io/vrchavez05@gmail.com", 
 				method: "POST",
-				data: {NAME: name, EMAIL: email, TYPE_OF_EVENT: type, GUEST_COUNT: guests, DATE_OF_EVENT: date, TIME_OF_EVENT: time, LOCATION: locationof, ADDITIONAL_INFO: addinfo},
+				data: {NAME: name, EMAIL: email, TYPE_OF_EVENT: type, GUEST_COUNT: guests, FOOD_ITEMS: food, DATE/TIME_OF_EVENT: time, LOCATION: locationof, ADDITIONAL_INFO: addinfo},
 				dataType: "json"
 			});
 			$('.forma').addClass('remform');
