@@ -247,7 +247,7 @@ input {
 	width: 375px;
 }
 
-.tipo {
+.telefo {
 	position: absolute;
 	background-color: black;
 	left: 30px;
@@ -256,7 +256,7 @@ input {
 	
 }
 
-#tipodos {
+#telefodos {
 	outline: none;
 	border: solid 1px #B51A00;
 	background-color: black;
@@ -282,13 +282,45 @@ input {
 	width: 375px;
 }
 
-.dia {
+.tipo {
 	position: absolute;
 	background-color: black;
 	left: 30px;
 	width: 290px;
 	top: 160px;
+}
+
+#tipodos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.ete {
+	position: absolute;
+	background-color: black;
+	left: 40%;
+	width: 290px;
+	top: 160px;
 	
+}
+
+#etedos {
+	outline: none;
+	border: solid 1px #B51A00;
+	background-color: black;
+	height: 40px;
+	width: 375px;
+}
+
+.dia {
+	position: absolute;
+	background-color: black;
+	left: 30px;
+	width: 290px;
+	top: 240px;
 }
 
 #diados {
@@ -303,9 +335,8 @@ input {
 	position: absolute;
 	background-color: black;
 	left: 40%;
-	width: 190px;
-	top: 160px;
-	
+	width: 290px;
+	top: 240px;
 }
 
 #tiempodos {
@@ -319,18 +350,10 @@ input {
 .donde {
 	position: absolute;
 	background-color: black;
+	text-align: left;
 	left: 30px;
-	width: 150px;
-	top: 240px;
-}
-
-.mas {
-	position: absolute;
-	background-color: black;
-	text-align: center;
-	left: 40%;
 	width: 200px;
-	top: 240px;
+	top: 320px;
 }
 
 textarea {
@@ -344,7 +367,7 @@ textarea {
 	color: #B51A00;
 	outline: none;
 	width: 375px;
-	height: 120px;
+	height: 70px;
 }
 
 #usebut {
@@ -356,7 +379,7 @@ textarea {
 #sendMessage {
 	position: absolute;
 	left: 30px;
-	top: 420px;
+	top: 480px;
 	cursor: pointer;
 	height: 40px;
 	width: 90px;
