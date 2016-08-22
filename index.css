@@ -1,3 +1,7 @@
+/*CLEAN CLEAN CLEAN*/
+
+
+/*Height and Width of Website*/
 body {
   min-height: 100%;
   min-width: 100%;
@@ -7,7 +11,7 @@ body {
   outline: none;
 }
 
-
+/*Wraps around body, precautionary wrapper*/
 .wrapper {
   height: 100%;
   width: 100%;
@@ -19,7 +23,7 @@ body {
   overflow: hidden;
 } 
 
-
+/*Styles the top div of website (Height, Width, etc.)*/
 .wrapper .top {
   background-color: black;
   vertical-align: middle;
@@ -33,9 +37,7 @@ body {
   overflow: hidden;
 }
 
-
-
-
+/*This styles the Logo Image*/
 .wrapper .top .logo {
   background-color: black;
   align-self: stretch;
@@ -47,14 +49,12 @@ body {
   overflow: hidden;
 }
 
-
+/*Trying to take away the Firefox/IE outline when clicking on Logo Image*/
 .logo a {
   outline: none;
 }
 
-
-
-
+/*Styles the position of Personalized Icons*/
 .links {
   position: fixed;
   right: 0;
@@ -63,6 +63,7 @@ body {
   outline: none;
 }
 
+/*Styles position of Nav Menu text*/
 .texts {
   position: absolute;
   right: 0;
@@ -72,58 +73,58 @@ body {
   outline: none;
 }
 
+/*Styles the text of the Nav Menu*/
 .texts a {
   color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 13px;
-  font-weight: 10;
+  font-weight: 100;
   text-decoration: none;
   outline: none;
 }
 
+/*Creates effect when mouse hovers over Nav Menu text*/
 .texts a:hover {
   outline: none;
   color: #000000;
-  text-shadow:  0px 0px 26px #FFFFFF,
-                0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF,
-		0px 0px 26px #FFFFFF;
+  text-shadow: 0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF,
+					  0px 0px 26px #FFFFFF;
 }
 
-
+/*Styles padding of Personalized Social Media Icons*/
 .links li {
   outline: none;
   display: inline;
   padding: 0px 6px 0px;
 }
 
+/*Creates effect when mouse hovers over Social Media Icons*/
 .links a:hover {
   outline: none;
   height: auto;
   width: 40px;
   border-radius: 50%;
   box-shadow: 0px 12px 30px 2px #FFFFFF,
-                        0px -12px 30px 2px #FFFFFF,
-						6px 0px 30px 2px #FFFFFF,
-						-4px 0px 30px 2px #FFFFFF;
-
+                     0px -12px 30px 2px #FFFFFF,
+					 6px 0px 30px 2px #FFFFFF,
+					 -4px 0px 30px 2px #FFFFFF;
 }
 
-
+/*Styles padding of Nav Menu Text*/
 .texts li {
   outline: none;
   display: inline;
   padding: 0px 6px 0px;
 }
 
-
-
-
+/*Styles slider (Height, Position, etc.)*/
 .wrapper .slider {
   position: fixed;
   overflow: hidden;
@@ -136,17 +137,19 @@ body {
   z-index: -1;
 }
 
-
+/*Styles li in slider*/
 .wrapper .slider li {
   position: absolute;
   list-style: none;
   left: 0;
 }
 
+/*Hides check box in website*/
 .slider input {
   display: none;
 }
 
+/*Styles label of slider and puts it on bottom of site/images*/
 .slider label {
   background-color: black;
   background-image: linear-gradient( transparent, hsla( 0, 0%, 0%, .25));
@@ -163,13 +166,13 @@ body {
   z-index: 10;
 }
 
-
+/*Describes what happens to the slider when part of slider is clicked*/
 .slider label:after {
   border-radius: 100%;
   bottom: -.2em;
   box-shadow: inset 0 0 0 .2em #111,
-                        inset 0 2px 2px #000,
-						0 1px 1px hsla( 0, 0%, 100%, .25);
+                     inset 0 2px 2px #000,
+					 0 1px 1px hsla( 0, 0%, 100%, .25);
   content: ' ';
   left: -.2em;
   position: absolute;
@@ -177,41 +180,46 @@ body {
   top: -.2em;
 }
 
+/*When you hover over image in slider, the label appears*/
 .slider:hover label {
   opacity: 1;
   visibility: visible;
 }
 
-
+/*Colors in the part of slider label that is checked/clicked*/
 .slider input:checked + label {
   background-color: #fff;
 }
 
-
+/*Styles position of First Image when it is to appear (Position, etc)*/
 .slider:hover li:nth-child(1) label {
   position: fixed;
   left: 45.6%;
   bottom: 3%;
 }
 
+/*Styles position of Second Image when it is to appear (Position, etc)*/
 .slider:hover li:nth-child(2) label {
   position: fixed;
   left: 47.8%;
   bottom: 3%;
 }
 
+/*Styles position of Third Image when it is to appear (Position, etc)*/
 .slider:hover li:nth-child(3) label {
   position: fixed;
   left: 50%;
   bottom: 3%;
 }
 
+/*Styles position of Fourth Image when it is to appear (Position, etc)*/
 .slider:hover li:nth-child(4) label {
   position: fixed;
   left: 52.2%;
   bottom: 3%;
 }
 
+/*Styles Images of slider (Transition, etc.)*/
 .slider img {
   opacity: 0;
   visibility: hidden;
@@ -223,22 +231,24 @@ body {
   overflow: hidden;
 }
 
-
+/*When slider part is checked, makes that image visible*/
 .slider li input:checked ~ img {
   opacity: 1;
   visibility: visible;
-
   z-index: 10;
 }
   
+/*Styles background of h1*/
 h1 span {
   background-color: black;
 }
 
+/*Styles background of h2*/
 h2 span {
   background-color: black;
 }
 
+/*Styles text of h1 (id=textone)*/
 #textone {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;  
@@ -250,6 +260,7 @@ h2 span {
   text-align: center;
 }
 
+/*Styles text of h1 (id=textone)*/
 #texttwo {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -261,8 +272,7 @@ h2 span {
   text-align: center;
 }
 
-
-
+/*Styles the wrapper that wraps around footer. (Height, Position, etc.)*/
 .jumbotron2 {
   background-color: black;
   top: 97%;
@@ -273,22 +283,24 @@ h2 span {
   left: 0;
   bottom: 0;
 }
-
  
+ /*Styles text in Footer*/
 .bottom li {
   color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 10px;
-  font-weight: 10;
+  font-weight: 100;
   text-decoration: none;
 }
 
+/*Styles position of .almost in Footer*/
 .almost {
   position: fixed;
   left: -2.5%;
   bottom: -1.4%;
 }
 
+/*Styles position of .huh in Footer*/
 .huh {
   position: fixed;
   bottom: -1.4%;
