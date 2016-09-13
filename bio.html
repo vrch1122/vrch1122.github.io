@@ -1,196 +1,73 @@
-/*CLEAN CLEAN CLEAN*/
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bio</title>
+		<meta charset="utf-8"/>	
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="css/bio.css">
+	</head>
 
+	<body>
+		<!--Wrapper that wraps over height and width of body-->
+		<div class="wrapper">
+			<div class="top">						<!--Top contains the top strip which includes the logo (Top Left), personalized media icons (Top Right), and navigational menu (Under Media icons)-->
+				<div class="logo">
+					<a href="index.html">
+						<img src="http://i.imgur.com/Gneg6do.jpg" alt="log" style="width: 250px; height: 10%; outline: none;">		<!--This is the Logo Image (Top Left)-->
+					</a>
+				</div>
 
-/*Height and Width of Website*/
-body {
-  min-height: 100%;
-  min-width: 100%;
-  margin: 0 auto;
-  background-color: black;
-  overflow: hidden;
-}
+				<!--These are the personalized Social Media Icons-->
+				<ul class="links">
+					<li><a href="#"><img src="http://i.imgur.com/DXbRfUd.png" alt="Face" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="#"><img src="http://i.imgur.com/aOiIzHW.png" alt="Spot" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="https://instagram.com/viierofficial/" target="_blank"><img src="http://i.imgur.com/86ttAZs.png" alt="Insta" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="#"><img src="http://i.imgur.com/YGMiEKz.png" alt="You" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="https://twitter.com/Viiermusic" target="_blank"><img src="http://i.imgur.com/TqYty1o.png" alt="Twit" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="https://soundcloud.com/viier" target="_blank"><img src="http://i.imgur.com/X4Utm1c.png" alt="Sound" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+					<li><a href="#"><img src="http://i.imgur.com/K7ynR88.png" alt="Beat" style="border-radius: 50%; width: 48px; height: 48px; border-size: .04px; border-color: transparent;"></a></li>
+				</ul>
+		
+				<!--This is the Navigational Menu (Under the Social Media Icons)-->
+				<ul class="texts" >
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="bio.html">BIO</a></li>
+					<li><a href="photos.html">PHOTOS</a></li>
+					<li><a href="events.html">EVENTS</a></li>
+					<li><a href="news.html">NEWS</a></li>
+					<li><a href="videos.html">VIDEOS</a></li>
+					<li><a href="store.html">STORE</a></li>
+				</ul>
 
-/*Wraps around body, precautionary wrapper*/
-.wrapper {
-  height: 100%;
-  width: 100%;
-  position: relative; 
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  overflow: hidden;
-} 
-
-/*Styles the top div of website (Height, Width, etc.)*/
-.wrapper .top {
-  background-color: black;
-  vertical-align: middle;
-  display: block;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-  height: 12%;
-  width: 100%;
-  border-style: none;
-  margin: 0;
-}
-
-/*This styles the Logo Image*/
-.wrapper .top .logo {
-  background-color: black;
-  display: block;
-  position: relative;
-  float: left;
-  width: 27%;
-  height: 100%;
-  overflow: hidden;
-}
-
-/*Trying to take away the Firefox/IE outline when clicking on Logo Image*/
-.logo a {
-  outline: none;
-}
-
-/*Styles the position of Personalized Icons*/
-.links {
-  position: fixed;
-  right: 0;
-  top: 1.25%;
-  height: auto;
-  outline: none;
-}
-
-/*Styles position of Nav Menu text*/
-.texts {
-  position: absolute;
-  right: 0;
-  top: 70%;
-  z-index: 1000;
-  outline: none;
-}
-
-/*Styles the text of the Nav Menu*/
-.texts a {
-  color: #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 13px;
-  font-weight: 100;
-  text-decoration: none;
-  outline: none;
-}
-
-/*Creates effect when mouse hovers over Nav Menu text*/
-.texts a:hover {
-  outline: none;
-  color: #000000;
-  text-shadow:  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF,
-					  0px 0px 26px #FFFFFF;
-}
-
-/*Styles padding of Personalized Social Media Icons*/
-.links li {
-  outline: none;
-  display: inline;
-  padding: 0px 6px 0px;
-}
-
-/*Styles Height and Width of Social Media Icons*/
-.links a {
-  outline: none;	
-  height: 44px;
-  width: 42px;
-  border-radius: 50%;
-}
-  
- /*Creates effect when mouse hovers over Social Media Icons*/
-.links a:hover {
-  outline: none;
-  height: auto;
-  width: 40px;
-  border-radius: 50%;
-  box-shadow: 0px 12px 30px 2px #FFFFFF,
-              0px -12px 30px 2px #FFFFFF,
-	      6px 0px 30px 2px #FFFFFF,
-	      -4px 0px 30px 2px #FFFFFF;
-}
-
-/*Styles padding of Nav Menu Text*/
-.texts li {
-  outline: none;
-  display: inline;
-  padding: 0px 6px 0px;
-}
-
-/*Styles Header of Page*/
-p {
-  position: fixed;
-  text-align: center;
-  left: 25%;
-  right: 25%;
-  top: 15%;
-  color: #FFFFFF;
-  text-shadow: -2px -2px 6px #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 55px;
-  font-weight: 100;
-  text-decoration: none;
-  line-height: 185%;
-}
-
-/*Styles text of Page (h1)*/
-h1 {
-  position: fixed;
-  text-align: justify;
-  left: 25%;
-  right: 25%;
-  top: 30%;
-  color: #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 17px;
-  font-weight: lighter;
-  text-decoration: none;
-  line-height: 185%;
-}
-
-/*Styles the wrapper that wraps around footer. (Height, Position, etc.)*/
-.jumbotron2 {
-  background-color: black;
-  top: 93%;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-}
+			</div>
+	
+			<!--This is the Header of the Page-->
+			<p id="biotxt">BIO</p>
+	  
+			<!--This is the text in the center/middle of the Page-->
+			<h1>VIIER is an up and coming progressive house group based out of Southern California. 
+					The group is comprised of a Latin trio looking to make their mark in the dance music scene 
+					and provide a voice for their underrepresented Latin American community. The trio utilizes 
+					elegant melodies infused with explosive drums and energetic bass lines. Their production 
+					process is deeply influenced by Latin culture and their Southern California upbringing. 
+					VIIER draws inspiration from the ideal of creating your destiny and charting your own path 
+					no matter where your'e from, your situation, or who you are.</h1>
  
- /*Styles text in Footer*/
-.bottom li {
-  color: #FFFFFF;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 10px;
-  font-weight: 100;
-  text-decoration: none;
-}
-
-/*Styles position of .almost in Footer*/
-.almost {
-  position: fixed;
-  left: -2.5%;
-  bottom: -1.4%;
-}
- 
-/*Styles position of .huh in Footer*/
-.huh {
-  position: fixed;
-  bottom: -1.4%;
-  right: 0;
-}
+			
+			<!--Footer-->
+			<footer class="cf">
+				<div class="jumbotron2">			<!--Wraps around Footer (Precationary)-->
+					<div class="bottom">
+						<ul class="almost">
+							<li style="list-style-type: none;">CONTACT VIIER</li>				<!--Contact VIIER, Bottom Left-->
+						</ul>
+						<ul class="huh">
+							<li style="list-style-type: none;">COPYRIGHT 2015 &#169;</li>				<!--COPYRIGHT 2015, Bottom Right-->
+						</ul>
+					</div>
+				</div>
+			</footer>
+	  
+		</div>
+	</body>
+</html>
